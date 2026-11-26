@@ -19,6 +19,8 @@ You need a ChatGPT account with access to Projects. Practise by typing or using 
 | Narrative adventure | “I want to start an adventure with Nephis.” |
 | Feedback | “What did I get wrong today?” |
 
+**Beta scope:** you can talk to Sunny, Nephis, Lelouch, Izaya and Roxas. RPG mode is configured only for Sunny and Nephis (individually or together), with original, non-canonical adventures in the Shadow Slave universe. Lelouch, Izaya and Roxas have conversation profiles; their RPG settings, abilities and mechanics are not yet configured.
+
 > **Next update:** 13 December 2026 (planned).
 
 ## Help and documentation
