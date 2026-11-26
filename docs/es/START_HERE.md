@@ -10,6 +10,8 @@ Con English Character Immersion puedes convertir tu ChatGPT en un espacio person
 
 Solo necesitas tu cuenta de ChatGPT. No tienes que instalar programas ni saber informática.
 
+**Alcance de la beta:** puedes conversar con Sunny, Nephis, Lelouch, Izaya y Roxas. El modo RPG está configurado únicamente para Sunny y Nephis (por separado o juntos), con aventuras originales no canónicas en el universo de Shadow Slave. Lelouch, Izaya y Roxas disponen de perfiles de conversación; sus entornos, habilidades y mecánicas RPG aún no están configurados.
+
 ## [🚀 Empezar a practicar inglés](https://palaciomemoriacodigo.github.io/english-character-immersion/)
 
 **Abre la web de instalación guiada.** Podrás copiar las instrucciones y descargar el archivo de práctica directamente, sin navegar por GitHub.

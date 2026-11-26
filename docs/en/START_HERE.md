@@ -8,6 +8,8 @@
 
 Would you like to talk in English, get help with mistakes and experience an adventure with fictional characters? Turn your own ChatGPT into a personal practice space.
 
+**Beta scope:** you can talk to Sunny, Nephis, Lelouch, Izaya and Roxas. RPG mode is configured only for Sunny and Nephis (individually or together), with original, non-canonical adventures in the Shadow Slave universe. Lelouch, Izaya and Roxas have conversation profiles; their RPG settings, abilities and mechanics are not yet configured.
+
 ## [🚀 Start practising English](https://palaciomemoriacodigo.github.io/english-character-immersion/en.html)
 
 **Open the guided setup website.** Copy the instructions and download the practice file directly, without navigating GitHub.
