@@ -21,6 +21,8 @@ La ley española reserva al titular derechos de reproducción, distribución, co
 - [ ] Si no se puede justificar el uso, suspender la distribución de esos archivos y publicar una edición con personajes, biografías, mundos, relaciones y mecánicas distintivas originales. Cambiar únicamente nombres no basta.
 - [ ] Revisar todas las fuentes y sus licencias; evitar citas extensas, arte, logos, audio y texto de terceros sin derechos.
 - [x] Definir MIT para código original y CC BY-NC 4.0 para material educativo original en el alcance de LICENSE, exclusivamente en la medida en que el mantenedor tenga derechos. No aplicar ambas a todo el paquete.
+- [x] Incorporar un protocolo preventivo de contenido original en instrucciones y módulo 00, aplicable también al RPG y a informes. Incluye restricciones de reproducción literal, recreación de escenas, voces y recursos audiovisuales oficiales; las pruebas automatizadas comprueban su presencia en los paquetes.
+- [ ] Validar el cumplimiento del protocolo en conversaciones reales; las instrucciones no son un filtro técnico infalible ni una autorización de titulares.
 - [ ] Verificar titularidad y permisos de cada aportación y excluir cualquier material de terceros no autorizado.
 - [ ] Revisar la información histórica de Git y solicitar a GitHub Support ayuda si quedan metadatos personales; retirar o restringir las copias públicas si procede.
 - [ ] No dar por cumplidos estos puntos porque PUBLIC_RELEASE_APPROVED esté configurada o porque Pages ya esté desplegada.

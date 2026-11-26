@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Candidate 2.3.0-rc.2: explicit original-content safeguards for dialogue, RPG, canon summaries, voice and artwork; preserve five profiles and campaign continuity. Check rules in all installation packages and add manual conversational regression cases. Rights clearance and live compliance tests remain pending.
 - Clarify current beta scope in both languages: five conversation profiles, RPG configured only for Sunny and Nephis; additional worlds and mechanics are future work. No changes to installation files or game rules.
 - Candidate 2.3.0-rc.1: campaign state/event ledger, checkpoint on pause and farewell, verified resume gate, fixed ability constraints, evidence-based feedback and voice-safe scenes. Manual ChatGPT regression tests pending; no automatic persistence or release approval.
 - Add preventive privacy checks for tracked files and generated packages, pin GitHub Actions to verified commit SHAs, disable persisted checkout credentials, reduce preview retention and align documentation and README banners with the dark landing.

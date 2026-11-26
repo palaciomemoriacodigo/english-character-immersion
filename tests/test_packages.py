@@ -13,6 +13,18 @@ from simple import SOURCE_NAME, INSTRUCTIONS_NAME
 from html.parser import HTMLParser
 
 class PackageTests(unittest.TestCase):
+    def assert_original_content_protocol(self, prompt, source):
+        for rule in ('Create original dialogue and adventures',
+                     'No copied passages, exact scene recreations, actor voice imitation or official artwork/audio',
+                     'Use brief canon summaries; refer to official works for details'):
+            self.assertIn(rule, prompt)
+        for rule in ('Intellectual Property & Original Content Protocol',
+                     'through translation, close paraphrase, continuation of source text',
+                     'Do not imitate, clone or claim to reproduce a specific actor',
+                     'Do not retrieve, reproduce or generate replicas of official illustrations',
+                     'Preserve the player\'s actual choices and completed events'):
+            self.assertIn(rule, source)
+
     def test_default_and_advanced_editions(self):
         with tempfile.TemporaryDirectory() as tmp:
             first = build(Path(tmp) / 'first', advanced=True)
@@ -52,6 +64,7 @@ class PackageTests(unittest.TestCase):
                         self.assertNotIn('analytics/analizar_errores.py', names)
                         prompt = z.read(INSTRUCTIONS_NAME).decode('utf-8')
                         source = z.read(SOURCE_NAME).decode('utf-8')
+                        self.assert_original_content_protocol(prompt, source)
                         self.assertLessEqual(len(prompt), 8000)
                         self.assertIn(SOURCE_NAME, prompt)
                         self.assertIn('CC BY-NC 4.0', prompt)
@@ -93,6 +106,8 @@ class PackageTests(unittest.TestCase):
                     expected = set(MODULES + ['USER_MANUAL.md', 'Session_Review_TEMPLATE.md', 'Session_Errors_TEMPLATE.csv']) if '_Full_' in a.name else set(GROUPS)
                     self.assertEqual({n.removeprefix('upload/') for n in names if n.startswith('upload/')}, expected)
                     prompt = z.read('PROJECT_INSTRUCTIONS.md').decode('utf-8')
+                    protocol = '00_Character_Immersion_Protocol.md' if '_Full_' in a.name else '02_Immersion_Protocol.md'
+                    self.assert_original_content_protocol(prompt, z.read('upload/' + protocol).decode('utf-8'))
                     self.assertLessEqual(len(prompt), 8000)
                     self.assertIn('analytics/analizar_errores.py', names)
                     self.assertIn('docs/en/ANALYTICS.md', names)
