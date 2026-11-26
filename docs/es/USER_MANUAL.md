@@ -154,7 +154,7 @@ Si no hay errores detectables, debe decirlo; no inventar observaciones para rell
 
 **Por voz:** se puede formular la pregunta y resumir 1–3 hallazgos. Si la interfaz no permite exportar, continúa **en el mismo chat en modo texto** para solicitar los archivos. El cierre no se activa por cerrar la aplicación sin enviar un mensaje.
 
-**En RPG:** un informe lingüístico no equivale a guardar la partida. Usa `Save campaign` por separado.
+**En RPG:** al despedirte se prepara primero un checkpoint copiable, salvo que pidas no guardar. El informe lingüístico requiere su propia confirmación.
 
 ## 7. Archivos Markdown y CSV: qué guardar y dónde
 
@@ -241,13 +241,13 @@ Ruta inicial de referencia: **Aspirant → First Nightmare → Sleeper → Dream
 
 ### 10.3. Guardar y continuar
 
-`Save campaign` solicita un **checkpoint** con ID de campaña, ficha y habilidades, equipo, recursos, heridas, lugar, objetivo, decisiones, relaciones, misterios pendientes y última escena. Guárdalo como Markdown o fuente del proyecto si quieres poder reutilizarlo.
+Al pausar, volver al menú o despedirte, se prepara un **checkpoint** (también puedes pedir `Save campaign`) con ID de campaña, ficha y habilidades, equipo, recursos, heridas, lugar, objetivo, decisiones, relaciones, misterios pendientes y última escena. Copia el checkpoint en un archivo privado y pégalo en el siguiente chat si no se recupera. No necesitas añadir otra fuente. Conserva el último estado, los eventos completados, los enemigos derrotados y los costes.
 
 Ejemplo: `Campaign_001_Sunny_Checkpoint_001.md`.
 
-`Continue our adventure` intenta recuperar el último checkpoint disponible. Si no está en el contexto accesible, tendrás que facilitarlo. No debe inventar partidas pasadas ni afirmar que ha guardado una fuente que no se ha editado realmente.
+`Continue our adventure` verifica el último checkpoint y los acontecimientos posteriores confirmados, resume la última acción resuelta y continúa desde la decisión pendiente. Si falta el estado dinámico, pide el checkpoint o un resumen. No debe repetir combates resueltos, inventar partidas ni afirmar que una fuente se ha actualizado.
 
-**Orden recomendado al dejar una campaña:** pedir `Save campaign`, terminar la sesión y, cuando se ofrezca, confirmar o rechazar el informe de inglés. `Update character memory` y `Update learning progress` son actualizaciones opcionales y separadas.
+**Orden recomendado al dejar una campaña:** despídete, conserva el checkpoint generado y confirma o rechaza el informe de inglés. Si cierras sin enviar mensaje no se genera un checkpoint. `Update character memory` y `Update learning progress` son actualizaciones opcionales y separadas.
 
 ## 11. Memoria, canon y continuidad
 
