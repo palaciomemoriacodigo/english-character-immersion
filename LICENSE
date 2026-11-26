@@ -1,0 +1,36 @@
+# Licensing scope / Alcance de las licencias
+
+English Character Immersion — © 2026 Palacio Memoria Código (palaciomemoriacodigo), to the extent copyright is held by the project maintainer. Contributions retain their applicable ownership.
+
+This is a mixed-license repository. No blanket license applies to the entire repository or installation bundle. The following grants apply only to original material that the maintainer is entitled to license; they do not claim copyright over material not protected by law.
+
+## MIT — original software / código original
+
+The original software implementation in scripts/, analytics/, tests/ (program code), .github/workflows/, and the HTML/CSS/JavaScript implementation in site/ is licensed under the MIT License in LICENSES/MIT.txt. This includes generic software logic, not embedded franchise content, educational prose, third-party material, names, marks, artwork or assets. MIT permits commercial and noncommercial reuse of covered code, subject to its terms. Retain the copyright and permission notices.
+
+## CC BY-NC 4.0 — original educational content / contenido educativo original
+
+The original, franchise-independent educational text, generic learning prompts and methods, exercises and blank report/checkpoint templates in the following locations are licensed under Creative Commons Attribution-NonCommercial 4.0 International:
+
+- README.md, README.en.md and original general educational documentation in docs/ (text only);
+- config/PROJECT_INSTRUCTIONS.md and modules/00, 06, 07 and 08 (only their original franchise-independent learning and interaction instructions);
+- templates/ (original blank templates);
+- original educational prose in site/landing_strings.json and the installation page;
+- the corresponding original portions of generated files in empezar/, dist/ and installation bundles.
+
+The scope excludes every third-party reference or protected element, franchise-specific instruction, profile, fictional setting, external quotation, logo, illustration or other visual asset. See LICENSES/CC-BY-NC-4.0.md for attribution and the official license. Covered material may be shared and adapted for noncommercial purposes under that license; credit the project, link the license and indicate changes. The license does not cover personal data or imply any endorsement.
+
+## Excluded material / Material excluido
+
+The character dossiers in modules/01–05 and the franchise-specific RPG in modules/09, including their copies or extracts in generated files, are excluded from both grants. No rights are granted in third-party characters, settings, names, marks, plot elements or other protected expression. Other material not expressly included above is not covered by these grants. Obtain any necessary permissions independently. See NOTICE.md.
+
+The project's maintainer offers the installation free of charge and does not intend to monetise it. This does not restrict the rights granted by MIT for original software or expand any rights over third-party content. Public GitHub viewing and forking remain governed by GitHub's terms. Statutory exceptions remain unaffected.
+
+## Resumen en español
+
+- MIT: únicamente código original en las rutas indicadas; se permite reutilizarlo, modificarlo y distribuirlo, incluso comercialmente, conservando los avisos.
+- CC BY-NC 4.0: únicamente textos educativos, instrucciones genéricas y plantillas originales identificados arriba; se permite compartir y adaptar con atribución para fines no comerciales.
+- Excluidos: perfiles de personajes, RPG de franquicia, elementos protegidos de terceros, marcas, imágenes y otros materiales no expresamente licenciados. No se concede autorización sobre ellos.
+- La disponibilidad gratuita y el aviso de derechos no sustituyen permisos de terceros. La revisión de derechos de las franquicias sigue pendiente.
+
+Licensor attribution / Atribución: Palacio Memoria Código (palaciomemoriacodigo), https://github.com/palaciomemoriacodigo/english-character-immersion .

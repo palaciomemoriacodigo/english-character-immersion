@@ -1,0 +1,10 @@
+# Keep source bytes stable across platforms (public-state hashes depend on LF).
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+VERSION text eol=lf
+*.pdf binary
+*.zip binary
