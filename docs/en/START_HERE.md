@@ -91,7 +91,7 @@ No. Ask for simpler English, slower speech or Spanish explanations when needed.
 
 **How do I keep my progress?**
 
-Ask for a report at the end and keep it privately. Ask to save your adventure before leaving. Continuity between chats is not guaranteed.
+Ask for a report at the end and keep it privately. A farewell in RPG prepares a copyable checkpoint unless declined. Keep it privately and paste it in the next chat if needed. Continuity between chats is not guaranteed.
 
 **What if my screen looks different?**
 

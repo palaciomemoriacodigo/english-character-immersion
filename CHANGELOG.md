@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Candidate 2.3.0-rc.1: campaign state/event ledger, checkpoint on pause and farewell, verified resume gate, fixed ability constraints, evidence-based feedback and voice-safe scenes. Manual ChatGPT regression tests pending; no automatic persistence or release approval.
 - Add preventive privacy checks for tracked files and generated packages, pin GitHub Actions to verified commit SHAs, disable persisted checkout credentials, reduce preview retention and align documentation and README banners with the dark landing.
 - Redesign the landing and legal page with a shared dark navy/violet design system, original abstract SVG voice artwork, five benefit cards and a short experience flow. Preserve the illustrated setup and downloads; extend responsive browser tests to both languages and legal page.
 - Apply differentiated MIT and CC BY-NC 4.0 licensing to specified original material only; exclude franchise dossiers and RPG content, add a bilingual legal page and propagate the notices into the installation downloads. Third-party rights review remains pending.
